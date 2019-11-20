@@ -58,3 +58,23 @@
 .square {
   transition: 0.5s;
 }
+
+.lightBlue{
+  background-color: #ADD8E6;
+}
+
+.orange{
+  background-color: #FFA500
+}
+
+.lightGreen{
+  background-color:#90EE8F
+}
+
+.yellow{
+  background-color:#FEFE00
+}
+
+.white{
+  background-color: white
+}
