@@ -14,11 +14,11 @@ function changeColor(){
 }
 
 
-for(let i = 0; i < 5000; i++){
+for(let i = 0; i < 4500; i++){
     let div = document.createElement('div');
-    div.className = "square";
     div.style.width = '10px';
     div.style.height = "10px";
+    div.className = "square";
     document.querySelector('.canvas').appendChild(div);
 }
 
