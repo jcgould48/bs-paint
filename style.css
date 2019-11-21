@@ -59,22 +59,22 @@
   transition: 0.5s;
 }
 
-.color-1{
+.lightBlue{
   background-color: #ADD8E6;
 }
 
-.color-2{
+.orange{
   background-color: #FFA500
 }
 
-.color-3{
+.lightGreen{
   background-color:#90EE8F
 }
 
-.color-4{
+.yellow{
   background-color:#FEFE00
 }
 
-.color-5{
+.white{
   background-color: white
 }
