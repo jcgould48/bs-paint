@@ -14,7 +14,7 @@ function changeColor(){
 }
 
 
-for(let i = 0; i < 1000; i++){
+for(let i = 0; i < 5000; i++){
     let div = document.createElement('div');
     div.className = "square";
     div.style.width = '10px';
@@ -22,7 +22,7 @@ for(let i = 0; i < 1000; i++){
     document.querySelector('.canvas').appendChild(div);
 }
 
-document.querySelector('.canvas').style.gridTemplateColumns = 'repeat(90, 10px)';
+document.querySelector('.canvas').style.gridTemplateColumns = 'repeat(80, 10px)';
 document.querySelector('.canvas').style.gridTemplateRows = 'repeat(50, 10px)';
 
 
