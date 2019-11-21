@@ -23,9 +23,6 @@ function changeColor(){
     event.target.classList.add(currentBrush.classList.item(1));
 }
 
-
-
-
 // for(let i = 0; i < 4000; i++){
 //     const div = document.createElement('div');
 //     div.className = "square";
@@ -34,8 +31,8 @@ function changeColor(){
 //     document.querySelector('.canvas').appendChild(div);
 // }
 
-document.querySelector('.canvas').style.gridTemplateColumns = 'repeat(90, 10px)';
-document.querySelector('.canvas').style.gridTemplateRows = 'repeat(30, 10px)';
+// document.querySelector('.canvas').style.gridTemplateColumns = 'repeat(90, 10px)';
+// document.querySelector('.canvas').style.gridTemplateRows = 'repeat(30, 10px)';
 
 // EVENT LISTENER
 document.querySelectorAll('.palette-color').forEach(color => {color.addEventListener('click', changeBrush)});
